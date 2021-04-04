@@ -37101,3 +37101,2356 @@ No serializer found for resource: #<User id: 1, username: "slaflam", password: [
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1248)
 
 
+Started POST "/users" for ::1 at 2021-01-22 21:34:07 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 02:34:07.732284"], ["updated_at", "2021-01-23 02:34:07.732284"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 6.0ms | Allocations: 6454)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:35:39 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 02:35:39.422465"], ["updated_at", "2021-01-23 02:35:39.422465"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.23ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 2633)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:37:56 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 02:37:56.267873"], ["updated_at", "2021-01-23 02:37:56.267873"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2633)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:38:07 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 02:38:07.043889"], ["updated_at", "2021-01-23 02:38:07.043889"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 2633)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:38:17 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"spl668", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "spl668"], ["password", "4214"], ["created_at", "2021-01-23 02:38:17.138024"], ["updated_at", "2021-01-23 02:38:17.138024"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.8ms | Allocations: 2613)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:39:04 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"adsdasda", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "adsdasda"], ["password", "asdasda"], ["created_at", "2021-01-23 02:39:04.182264"], ["updated_at", "2021-01-23 02:39:04.182264"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 2633)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:39:48 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"asdsada", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "asdsada"], ["password", "asdasd"], ["created_at", "2021-01-23 02:39:48.296316"], ["updated_at", "2021-01-23 02:39:48.296316"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.8ms | Allocations: 2613)
+
+
+Started POST "/users" for ::1 at 2021-01-22 21:40:22 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"sadsad", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "sadsad"], ["password", "asdadads"], ["created_at", "2021-01-23 02:40:22.912830"], ["updated_at", "2021-01-23 02:40:22.912830"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 2613)
+
+
+Started GET "/login" for ::1 at 2021-01-22 22:21:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2021-01-22 22:21:34 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 03:21:34.582438"], ["updated_at", "2021-01-23 03:21:34.582438"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.22ms)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 2.3ms | Allocations: 2690)
+
+
+Started POST "/users" for ::1 at 2021-01-22 22:22:06 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "asdad"], ["created_at", "2021-01-23 03:22:06.681114"], ["updated_at", "2021-01-23 03:22:06.681114"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 2613)
+
+
+Started POST "/users" for ::1 at 2021-01-22 22:49:10 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 03:49:10.711665"], ["updated_at", "2021-01-23 03:49:10.711665"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.28ms)
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 2.6ms | Allocations: 2637)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:00:33 -0500
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (21.55ms)
+Completed 200 OK in 60ms (Views: 49.1ms | ActiveRecord: 9.0ms | Allocations: 21068)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:07:07 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.11ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 1.0ms | Allocations: 13464)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:11:32 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 06:11:32.577023"], ["updated_at", "2021-01-23 06:11:32.577023"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 2615)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:33:45 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 06:33:45.105238"], ["updated_at", "2021-01-23 06:33:45.105238"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.6ms | Allocations: 2636)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:35:13 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.69ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.9ms | Allocations: 13439)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:36:05 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (14.34ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.5ms | Allocations: 13390)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:36:10 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 06:36:10.106573"], ["updated_at", "2021-01-23 06:36:10.106573"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:36:13 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.78ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 13389)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:36:30 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"lasl", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "lasl"], ["password", ""], ["created_at", "2021-01-23 06:36:30.881027"], ["updated_at", "2021-01-23 06:36:30.881027"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.23ms)
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:36:51 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-23 06:36:51.082828"], ["updated_at", "2021-01-23 06:36:51.082828"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:37:12 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (15.41ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.8ms | Allocations: 13389)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:37:15 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:37:15.936853"], ["updated_at", "2021-01-23 06:37:15.936853"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:37:53 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.41ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:38:44 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.25ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:41:52 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:41:52.004562"], ["updated_at", "2021-01-23 06:41:52.004562"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.23ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 2617)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:42:08 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.77ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:42:11 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", ""], ["created_at", "2021-01-23 06:42:11.940509"], ["updated_at", "2021-01-23 06:42:11.940509"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2613)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:42:32 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:42:32.861277"], ["updated_at", "2021-01-23 06:42:32.861277"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:45:02 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.75ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:45:04 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:45:04.562325"], ["updated_at", "2021-01-23 06:45:04.562325"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:45:07 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.53ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:48:59 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (34.66ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.6ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:49:03 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:49:03.852276"], ["updated_at", "2021-01-23 06:49:03.852276"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 1.1ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:49:06 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (30.98ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:50:47 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.69ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-23 01:50:53 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-23 06:50:53.119189"], ["updated_at", "2021-01-23 06:50:53.119189"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:50:55 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.33ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-23 01:51:09 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.64ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/" for ::1 at 2021-01-24 21:18:08 -0500
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/sean.laflam/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/sean.laflam/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.2ms | Allocations: 292)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 1488)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-01-24 21:18:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/songs" for ::1 at 2021-01-24 21:18:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/songs"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2021-01-24 21:18:17 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4:in `index'
+No serializer found for resource: #<User id: 1, username: "slaflam", password: [FILTERED], created_at: "2021-01-23 02:32:22", updated_at: "2021-01-23 02:32:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.98ms)
+Completed 200 OK in 26ms (Views: 8.9ms | ActiveRecord: 14.4ms | Allocations: 8496)
+
+
+Started POST "/users" for ::1 at 2021-01-25 00:20:37 -0500
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (7.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-25 05:20:37.777492"], ["updated_at", "2021-01-25 05:20:37.777492"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.21ms)
+Completed 200 OK in 22ms (Views: 2.3ms | ActiveRecord: 13.2ms | Allocations: 6454)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:20:41 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (5.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.35ms)
+Completed 200 OK in 37ms (Views: 26.6ms | ActiveRecord: 9.4ms | Allocations: 20839)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:22:10 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.64ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.4ms | Allocations: 13407)
+
+
+Started POST "/users" for ::1 at 2021-01-25 00:22:13 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", ""], ["created_at", "2021-01-25 05:22:13.033863"], ["updated_at", "2021-01-25 05:22:13.033863"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.6ms | Allocations: 2633)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:22:15 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (14.09ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.5ms | Allocations: 13408)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:23:05 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.32ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-25 00:23:06 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-25 05:23:06.403571"], ["updated_at", "2021-01-25 05:23:06.403571"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2618)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:23:08 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.43ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:23:47 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.91ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 13389)
+
+
+Started POST "/users" for ::1 at 2021-01-25 00:23:49 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-25 05:23:49.055491"], ["updated_at", "2021-01-25 05:23:49.055491"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 00:23:52 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (13.75ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-25 13:52:16 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-25 18:52:16.377085"], ["updated_at", "2021-01-25 18:52:16.377085"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 16ms (Views: 1.3ms | ActiveRecord: 8.1ms | Allocations: 6454)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 13:52:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.95ms)
+Completed 200 OK in 36ms (Views: 29.5ms | ActiveRecord: 5.1ms | Allocations: 20839)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 13:52:34 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.56ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.5ms | Allocations: 13407)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:08:50 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-26 04:08:50.943882"], ["updated_at", "2021-01-26 04:08:50.943882"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 2.4ms | Allocations: 2650)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:09:22 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (1.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.1ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 1.5ms | Allocations: 13439)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:09:29 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-26 04:09:29.322979"], ["updated_at", "2021-01-26 04:09:29.322979"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:09:31 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.23ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.5ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:10:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.58ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms | Allocations: 13391)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:10:30 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigag"], ["created_at", "2021-01-26 04:10:30.484403"], ["updated_at", "2021-01-26 04:10:30.484403"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2633)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:10:34 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.17ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:06 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.45ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:11:15 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-26 04:11:15.788967"], ["updated_at", "2021-01-26 04:11:15.788967"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:18 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.03ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms | Allocations: 13389)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:20 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.55ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:11:21 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 04:11:21.312507"], ["updated_at", "2021-01-26 04:11:21.312507"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.2ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:24 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.22ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.59ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:11:26 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 04:11:26.801615"], ["updated_at", "2021-01-26 04:11:26.801615"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2616)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:11:29 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.43ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.5ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:29:23 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.91ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.8ms | Allocations: 13461)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:43:25 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 04:43:25.348504"], ["updated_at", "2021-01-26 04:43:25.348504"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.5ms | Allocations: 2639)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:43:28 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.94ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.9ms | Allocations: 13440)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:44:10 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.08ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:44:10 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 04:44:10.977131"], ["updated_at", "2021-01-26 04:44:10.977131"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:44:13 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.52ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.6ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:45:12 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.55ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-25 23:45:15 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 04:45:15.789560"], ["updated_at", "2021-01-26 04:45:15.789560"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:45:19 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.24ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-25 23:45:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.09ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-26 00:06:07 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 05:06:07.832731"], ["updated_at", "2021-01-26 05:06:07.832731"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 2636)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:06:12 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.7ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.8ms | Allocations: 13439)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:08:38 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.83ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.3ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-26 00:08:39 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 05:08:39.586538"], ["updated_at", "2021-01-26 05:08:39.586538"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:08:42 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.85ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:08:58 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.71ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-26 00:08:59 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 05:08:59.079895"], ["updated_at", "2021-01-26 05:08:59.079895"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 1.1ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:09:02 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.45ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:09:23 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.8ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-26 00:09:24 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 05:09:24.769655"], ["updated_at", "2021-01-26 05:09:24.769655"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.2ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:09:26 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.3ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:56:18 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (17.12ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.8ms | Allocations: 13461)
+
+
+Started POST "/users" for ::1 at 2021-01-26 00:56:20 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-26 05:56:20.077202"], ["updated_at", "2021-01-26 05:56:20.077202"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 1.6ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-26 00:56:23 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (20.55ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/" for ::1 at 2021-01-26 18:10:24 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/sean.laflam/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/sean.laflam/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.5ms | Allocations: 292)
+Completed 200 OK in 23ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 1484)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-01-26 18:10:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/users" for ::1 at 2021-01-28 21:02:46 -0500
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-29 02:02:46.856322"], ["updated_at", "2021-01-29 02:02:46.856322"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 17ms (Views: 2.3ms | ActiveRecord: 8.5ms | Allocations: 6454)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:02:50 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.74ms)
+Completed 200 OK in 34ms (Views: 28.2ms | ActiveRecord: 5.2ms | Allocations: 20840)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:06:29 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.77ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 13407)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:06:31 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:06:31.160267"], ["updated_at", "2021-01-29 02:06:31.160267"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2633)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:06:48 -0500
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.93ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:07:07 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.66ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.5ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:07:19 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:07:19.501510"], ["updated_at", "2021-01-29 02:07:19.501510"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2616)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:07:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.34ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.5ms | Allocations: 13407)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:08:11 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.36ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:08:12 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.52ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:08:21 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.29ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:08:34 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.09ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 13390)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:08:57 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:09:16 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:09:16.934365"], ["updated_at", "2021-01-29 02:09:16.934365"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:09:20 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (13.32ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:09:34 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.61ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:10:00 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.99ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:10:21 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.62ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:10:28 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.11ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:10:54 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.35ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:10:57 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.45ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:11:15 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.64ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:11:54 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.31ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:13:23 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.02ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:13:24 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:13:24.800067"], ["updated_at", "2021-01-29 02:13:24.800067"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:13:57 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.72ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:13:58 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:13:58.397715"], ["updated_at", "2021-01-29 02:13:58.397715"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2616)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:14:05 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.06ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:14:27 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:14:27.066070"], ["updated_at", "2021-01-29 02:14:27.066070"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:14:29 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.25ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:15:06 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (13.77ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:15:11 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:15:11.984579"], ["updated_at", "2021-01-29 02:15:11.984579"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2617)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:15:20 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (15.53ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:15:22 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:15:22.037885"], ["updated_at", "2021-01-29 02:15:22.037885"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:16:16 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (14.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.7ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:16:55 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:16:55.538658"], ["updated_at", "2021-01-29 02:16:55.538658"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:17:38 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.89ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:18:12 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:18:12.947905"], ["updated_at", "2021-01-29 02:18:12.947905"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:18:31 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.97ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:18:32 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:18:32.928033"], ["updated_at", "2021-01-29 02:18:32.928033"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:18:35 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.13ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:18:51 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.95ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:18:52 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:18:52.166762"], ["updated_at", "2021-01-29 02:18:52.166762"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.12ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:18:56 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.81ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:19:07 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.58ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:19:08 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:19:08.726256"], ["updated_at", "2021-01-29 02:19:08.726256"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:19:19 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.82ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.8ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:19:24 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:19:24.656321"], ["updated_at", "2021-01-29 02:19:24.656321"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.13ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:19:27 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (13.21ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:20:28 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.94ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:20:31 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:20:31.504600"], ["updated_at", "2021-01-29 02:20:31.504600"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:20:43 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.82ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 21:20:45 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 02:20:45.639175"], ["updated_at", "2021-01-29 02:20:45.639175"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:20:49 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.03ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:22:25 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.63ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:22:55 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.93ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:23:35 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.58ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 21:24:26 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.94ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 22:45:49 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.14ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.7ms | Allocations: 13462)
+
+
+Started POST "/users" for ::1 at 2021-01-28 22:45:52 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", ""], ["created_at", "2021-01-29 03:45:52.567876"], ["updated_at", "2021-01-29 03:45:52.567876"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 2.1ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 22:45:55 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.42ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 22:59:08 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.58ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.8ms | Allocations: 13462)
+
+
+Started POST "/users" for ::1 at 2021-01-28 22:59:10 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 03:59:10.351910"], ["updated_at", "2021-01-29 03:59:10.351910"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.13ms)
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.2ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 22:59:13 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.31ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:00:37 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (20.78ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:01:49 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"slaflam", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "slaflam"], ["password", "zigzag"], ["created_at", "2021-01-29 04:01:49.822205"], ["updated_at", "2021-01-29 04:01:49.822205"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.13ms)
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.6ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:01:58 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (20.23ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:02:21 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.7ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:02:22 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:02:22.959873"], ["updated_at", "2021-01-29 04:02:22.959873"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:02:24 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.14ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:03:17 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.46ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:04:29 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:04:29.851676"], ["updated_at", "2021-01-29 04:04:29.851676"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:04:32 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.36ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:10:43 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (1.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.46ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 1.1ms | Allocations: 13462)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:10:55 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:10:55.728503"], ["updated_at", "2021-01-29 04:10:55.728503"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 2.3ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:11:10 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.15ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:11:11 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:11:11.988598"], ["updated_at", "2021-01-29 04:11:11.988598"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.12ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.8ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:11:14 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.38ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:11:33 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.72ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:11:34 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:11:34.365143"], ["updated_at", "2021-01-29 04:11:34.365143"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:11:48 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.89ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:11:49 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:11:49.337892"], ["updated_at", "2021-01-29 04:11:49.337892"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.12ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:11:52 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.92ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:14:27 -0500
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.54ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.3ms | Allocations: 13386)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:16:32 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.22ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:16:33 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:16:33.444939"], ["updated_at", "2021-01-29 04:16:33.444939"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:16:35 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.92ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:17:26 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.05ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:17:26 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:17:26.881677"], ["updated_at", "2021-01-29 04:17:26.881677"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:17:40 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.06ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:17:41 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:17:41.580997"], ["updated_at", "2021-01-29 04:17:41.580997"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:17:54 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.55ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.9ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:17:57 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:17:57.030742"], ["updated_at", "2021-01-29 04:17:57.030742"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:17:59 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.02ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:18:17 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (13.33ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:18:18 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:18:18.471516"], ["updated_at", "2021-01-29 04:18:18.471516"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.11ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:18:20 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.24ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.4ms | Allocations: 13389)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:21:19 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (19.72ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.7ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:21:21 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:21:21.021273"], ["updated_at", "2021-01-29 04:21:21.021273"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:21:37 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (19.48ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:21:38 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:21:38.189574"], ["updated_at", "2021-01-29 04:21:38.189574"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:21:58 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.83ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:22:59 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:22:59.197414"], ["updated_at", "2021-01-29 04:22:59.197414"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.12ms)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.5ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:23:23 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.35ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:23:25 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:23:25.861557"], ["updated_at", "2021-01-29 04:23:25.861557"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:23:31 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.98ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:41:45 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.03ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.8ms | Allocations: 13462)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:41:45 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:41:45.980169"], ["updated_at", "2021-01-29 04:41:45.980169"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.15ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.2ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:41:48 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.96ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:42:47 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.71ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:42:48 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:42:48.800131"], ["updated_at", "2021-01-29 04:42:48.800131"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.16ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:42:52 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.71ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:43:27 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.11ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:43:28 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:43:28.490052"], ["updated_at", "2021-01-29 04:43:28.490052"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.14ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:43:30 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.86ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:45:33 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.02ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.7ms | Allocations: 13387)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:45:44 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:45:44.767922"], ["updated_at", "2021-01-29 04:45:44.767922"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:45:48 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.28ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:47:59 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.39ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.7ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:48:00 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:48:00.947259"], ["updated_at", "2021-01-29 04:48:00.947259"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:48:03 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.79ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.8ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:53:13 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.13ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-28 23:56:52 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 04:56:52.394641"], ["updated_at", "2021-01-29 04:56:52.394641"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.22ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 2615)
+
+
+Started GET "/questions" for ::1 at 2021-01-28 23:56:54 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.45ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.4ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-29 00:07:30 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (21.33ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.8ms | Allocations: 13462)
+
+
+Started GET "/questions" for ::1 at 2021-01-29 00:07:33 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (21.03ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-29 00:08:53 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 05:08:53.147559"], ["updated_at", "2021-01-29 05:08:53.147559"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 2614)
+
+
+Started GET "/questions" for ::1 at 2021-01-29 00:08:55 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.05ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+
+Started GET "/questions" for ::1 at 2021-01-29 00:11:03 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.24ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 13388)
+
+
+Started POST "/users" for ::1 at 2021-01-29 00:11:04 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", ""], ["password", ""], ["created_at", "2021-01-29 05:11:04.120642"], ["updated_at", "2021-01-29 05:11:04.120642"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.9ms | Allocations: 2613)
+
+
+Started GET "/questions" for ::1 at 2021-01-29 00:11:07 -0500
+Processing by QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/questions_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.0ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.5ms | Allocations: 13388)
+
+

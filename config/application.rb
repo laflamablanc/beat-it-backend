@@ -1,6 +1,19 @@
 require_relative 'boot'
 
 require "rails"
+# active_storage, action_mailbox, action_text removed
+%w(
+  active_record/railtie
+  action_controller/railtie
+  action_view/railtie
+  action_mailer/railtie
+  active_job/railtie
+  action_cable/engine
+  rails/test_unit/railtie
+  sprockets/railtie
+).each do |railtie|
+  require railtie
+end
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
